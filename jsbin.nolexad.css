@@ -1,0 +1,44 @@
+.main-wrapper {
+  display: grid;
+  grid-template-rows: 1000px; 
+
+}
+
+#mocha {
+  background: lightgrey;
+  color: white;
+  padding: 20px;
+}
+
+#display-news{
+  display: grid;
+  max-width: 940px;
+  margin: 0 auto;
+  background: #fbf3f4;
+  grid-template-columns: repeat(auto-fit, 220px);
+  grid-gap: 20px;
+  padding: 10px;
+  justify-items: center;
+}
+
+.card{
+  display: grid;
+  background: #f7f7f7;
+  justify-items: center;
+  padding: 10px;
+  box-shadow: 4px 2px 7px 0px #aaa;
+}
+
+.header {
+  
+  background: #ff6961;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+a {
+  text-decoration: none;
+}
